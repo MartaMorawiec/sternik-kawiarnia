@@ -16,6 +16,4 @@ public class Kawa implements Napoj {
 	public String toString() {
 		return "Kawa [nazwa()=" + getNazwa() + ", cena=" + getCena() + "]";
 	}
-    
-    
 }
