@@ -3,6 +3,8 @@ package pl.sternik.mm.kawiarnia;
 import pl.sternik.mm.kawiarnia.dekoratory.BitaSmietana;
 import pl.sternik.mm.kawiarnia.dekoratory.Cukier;
 import pl.sternik.mm.kawiarnia.dekoratory.DodatkiTypy;
+import pl.sternik.mm.kawiarnia.ekspres.Ekspres;
+import pl.sternik.mm.kawiarnia.ekspres.EkspresCzekolada;
 import pl.sternik.mm.kawiarnia.napoje.Czekolada;
 import pl.sternik.mm.kawiarnia.napoje.Kawa;
 import pl.sternik.mm.kawiarnia.napoje.Napoj;
@@ -38,10 +40,10 @@ public abstract class Kawiarnia {
 		System.out.println(cos);
 		System.out.println(cos3);
 
-//		System.out.println("------- Template Metod -----");
-//		Ekspres ekspres = new EkspresCzekolada();
-//		Napoj napoj = ekspres.dajNapoj();
-//		System.out.println(napoj);
+		System.out.println("------- Template Metod -----");
+		Ekspres ekspres = new EkspresCzekolada();
+		Napoj napoj = ekspres.dajNapoj();
+		System.out.println(napoj);
 
 	}
 }
